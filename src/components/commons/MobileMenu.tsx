@@ -1,15 +1,11 @@
 "use client";
 
-import Link from "next/link";
-import { useState } from "react";
-
 interface MobileMenuProps {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
 }
 
 export default function MobileMenu({ isOpen, setIsOpen }: MobileMenuProps) {
-
   return (
         <button
           onClick={() => setIsOpen(!isOpen)}
