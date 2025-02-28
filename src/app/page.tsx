@@ -6,10 +6,10 @@ export default function Home() {
       <main className="container-main row-start-2 flex flex-col items-center gap-8 sm:items-start">
         <div className="w-full h-full">
           <p className="promise-content my-10 py-15 md:mt-20 md:py-20">
-            G'day, I'm Amine Azizi, 
+            G&apos;day, I&apos;m Amine Azizi, 
             a <span className="focus-word">Senior Software Engineer</span>. 
             <br/> I help teams worldwide get their ideas and products to the moon. 
-            I'm serious about creating amazing <span className="focus-word"> tools</span>, <span className="focus-word">practices</span>, and <span className="focus-word">open works</span> for creators, entrepreneurs, and creative teams.</p>
+            I&apos;m serious about creating amazing <span className="focus-word"> tools</span>, <span className="focus-word">practices</span>, and <span className="focus-word">open works</span> for creators, entrepreneurs, and creative teams.</p>
         </div>
       </main>
 
