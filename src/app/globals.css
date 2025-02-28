@@ -5,15 +5,30 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .container-main {
+    @apply container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-layout {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 min-w-[360px] ;
+  }
+
+  .contact-button {
+    @apply text-white px-3 py-2 rounded-md bg-linear-to-r/shorter from-[rgba(0,82,204,1)] to-[rgba(0,130,204,1)] text-sm md:text-base shadow-md;
+  }
+
 }
