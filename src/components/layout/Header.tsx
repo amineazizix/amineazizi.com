@@ -22,7 +22,7 @@ export default function Header() {
             <ul className="flex items-center gap-6">
                <li>
                   {/* <Link href="/" className="text-gray-700 hover:text-gray-950"> */}
-                  The Way
+                  {/* The Way */}
                   {/* </Link> */}
                </li>
                <li>
@@ -32,7 +32,7 @@ export default function Header() {
                </li>
                <li>
                   {/* <Link href="/" className="text-gray-700 hover:text-gray-950"> */}
-                  The Me
+                  {/* The Me */}
                   {/* </Link> */}
                </li>
             </ul>
