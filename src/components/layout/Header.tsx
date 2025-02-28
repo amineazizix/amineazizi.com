@@ -21,13 +21,19 @@ export default function Header() {
          <nav className="items-center gap-6 hidden md:flex">
             <ul className="flex items-center gap-6">
                <li>
-                  <Link href="/" className="text-gray-700 hover:text-gray-950">The Way</Link>
+                  {/* <Link href="/" className="text-gray-700 hover:text-gray-950"> */}
+                  The Way
+                  {/* </Link> */}
                </li>
                <li>
-                  <Link href="/" className="contact-button">Contact</Link>
+                  <Link href="mailto:hi@amineazizi.com" className="contact-button">
+                  Contact
+                  </Link>
                </li>
                <li>
-                  <Link href="/" className="text-gray-700 hover:text-gray-950">The Me</Link>
+                  {/* <Link href="/" className="text-gray-700 hover:text-gray-950"> */}
+                  The Me
+                  {/* </Link> */}
                </li>
             </ul>
          </nav>
@@ -35,13 +41,13 @@ export default function Header() {
             <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />
          </div>
          <div className="hidden md:flex items-center gap-2">
-            <Link href="/">
+            <Link href="https://github.com/amineazizix" target="_blank">
                <Image src="/social-media/github.svg" alt="github" width={40} height={40} />
             </Link>
-            <Link href="/">
+            <Link href="https://twitter.com/amineazizix" target="_blank">
                <Image src="/social-media/twitter.svg" alt="twitter" width={40} height={40} />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/amineazizi/" target="_blank">
                <Image src="/social-media/linkedin.svg" alt="linkedin" width={40} height={40} />
             </Link>
          </div>
