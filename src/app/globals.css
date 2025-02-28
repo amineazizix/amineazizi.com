@@ -31,4 +31,29 @@ body {
     @apply text-white px-3 py-2 rounded-md bg-linear-to-r/shorter from-[rgba(0,82,204,1)] to-[rgba(0,130,204,1)] text-sm md:text-base shadow-md;
   }
 
+  .promise-content {
+    @apply text-xl md:text-4xl leading-9 md:leading-15 font-bold text-[#253858];
+  }
+
+  .focus-word {
+    @apply font-extrabold bg-linear-to-r/shorter from-[#0052cc] to-[#0082cc] text-transparent bg-clip-text;
+  }
+
+  .portfolio-item {
+    @apply inline-block text-center mx-[20px] md:mx-[40px] h-auto w-[100px] md:w-[160px];
+  }
+}
+
+@theme {
+  --animate-infinite-slide-slow: 60s linear 0s infinite normal none running the-slider;
+  --animate-infinite-slide: 20s linear 0s infinite normal none running the-slider;
+
+  @keyframes the-slider {
+    0% {
+      transform: translate3d(0,0,0);
+    }
+    100% {
+      transform: translate3d(-50%,0,0);
+    }
+  }
 }

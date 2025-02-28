@@ -9,7 +9,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white font-sans border-b border-gray-100">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-100">
       <div className="container-layout flex items-center justify-between w-full py-3">
          <div className="">
          <Link href="/">
@@ -55,7 +55,7 @@ export default function Header() {
             <div className="w-full text-center py-2 shadow-xs">
                <Link href="/">The Me</Link>
             </div>
-            <div className="w-full flex items-center gap-3 justify-center py-2">
+            <div className="w-full flex items-center gap-3 justify-center py-3">
                <Link href="/" className="contact-button">Contact</Link>
                <Link href="/">
                   <Image src="/social-media/github.svg" alt="github" width={30} height={30} />
