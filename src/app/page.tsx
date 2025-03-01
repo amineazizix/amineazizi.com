@@ -21,7 +21,7 @@ export default function Home() {
             <div className="portfolio-item"><Image src="/portfolio/sfr_business.svg" alt="SFR Business" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/teamoty.png" alt="Teamoty" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/legalplace.png" alt="Legalplace" width={160} height={160}/> </div>
-            <div className="portfolio-item"><Image src="/portfolio/skaalab.png" alt="Skaalab" width={160} height={160}/> </div>
+            <div className="portfolio-item"><Image src="/portfolio/skaalab.svg" alt="Skaalab" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/place2swap.png" alt="Place2swap" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/jules.png" alt="Jules" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/cdiscount.png" alt="Cdiscount" width={160} height={160}/> </div>
@@ -33,7 +33,7 @@ export default function Home() {
             <div className="portfolio-item"><Image src="/portfolio/teamoty.png" alt="Teamoty" width={160} height={160}/> </div> 
             <div className="portfolio-item"><Image src="/portfolio/place2swap.png" alt="Place2swap" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/legalplace.png" alt="Legalplace" width={160} height={160}/> </div>
-            <div className="portfolio-item"><Image src="/portfolio/skaalab.png" alt="Skaalab" width={160} height={160}/> </div>
+            <div className="portfolio-item"><Image src="/portfolio/skaalab.svg" alt="Skaalab" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/jules.png" alt="Jules" width={160} height={160}/> </div>
             <div className="portfolio-item"><Image src="/portfolio/cdiscount.png" alt="Cdiscount" width={160} height={160}/> </div>
           </div>
